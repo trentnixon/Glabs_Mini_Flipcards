@@ -1,0 +1,17 @@
+
+            h1{  
+                @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0) ; 
+                font-family: $ClientHeader;}
+
+            h2{  
+                @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0) ; 
+                font-family: $ClientHeader;
+            }
+
+            h3{
+                @include FONT($FontMedSize,$FontMedLine,$FontMedWeight,0) ;
+                font-family: $ClientHeader;}
+
+            p{ 
+                @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0) ; 
+            }

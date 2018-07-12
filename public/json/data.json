@@ -1,0 +1,230 @@
+{
+ "data":"Load the Data",
+ "ProjectHeader":"Mini X Connected",
+ "ProjectSubHeader":"The internet of everything and everyday tech.",
+ "ProjectCopy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+
+ "ProjectLogo":"Client-Logo.png",
+ "ProjectSocial":{
+     "ShareUrl":"https://www.google.com",
+     "ShareHeader":"Share This Page",
+     "ShareCopy":"This is a test of the Social flipcard buttons",
+     "ShareImage":"",
+     "ShareThumb":""
+ },
+ "BodyCopy":[
+    {
+         "type":"p",
+         "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+    },{
+         "type":"h2",
+         "copy":["Lorem ipsum dolor sit amet,"]
+    },{
+         "type":"h3",
+         "copy":["Lorem ipsum dolor sit amet,"]
+    },{
+         "type":"p",
+         "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+    }
+ ],
+ "Cards":[
+     {
+         "front":{
+            "bgImage":"/assets/images/mini_bg.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"GPS",
+                "subheader":"Mapping our world",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/mini_back_bg.jpg",
+            "CTA":{
+                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
+                "Label":"Explore Further!"
+            },
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"GPS",
+                "subheader":"Mapping our world",
+                "copy":[" eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+            } 
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/mini_bg.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"AI",
+                "subheader":"In-home technology",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/mini_back_bg.jpg",
+            "CTA":{
+                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
+                "Label":"Explore Further!"
+            },
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"AI",
+                "subheader":"In-home technology",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+           }
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/mini_bg.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Personal  tech",
+                "subheader":"Music devices and streaming media",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/mini_back_bg.jpg",
+            "CTA":{
+                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
+                "Label":"Explore Further!"
+            },
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Personal  tech",
+                "subheader":"Music devices and streaming media",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+            }
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/mini_bg.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Personal drones",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/mini_back_bg.jpg",
+            "CTA":{
+                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
+                "Label":"Explore Further!"
+            },
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Personal drones",
+                "subheader":"",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+           }
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/mini_bg.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Autonomous vehicles",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/mini_back_bg.jpg",
+            "CTA":{
+                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
+                "Label":"Explore Further!"
+            },
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Autonomous vehicles",
+                "subheader":"",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+           }
+         }
+    },
+    {
+         "front":{
+            "bgImage":"/assets/images/mini_bg.jpg",
+            "banner":{
+                "media":null,
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Robotics",
+                "subheader":"",
+                "copy":""
+            }
+         },
+         "back":{
+            
+            "bgImage":"/assets/images/mini_back_bg.jpg",
+            "CTA":{
+                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
+                "Label":"Explore Further!"
+            },
+            "banner":{
+                "media":null, 
+                "src":""
+            },
+            "content":{
+                "type":"basic",
+                "header":"Robotics",
+                "subheader":"",
+                "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+           }
+         }
+    }
+]
+}
