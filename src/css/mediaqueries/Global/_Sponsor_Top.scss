@@ -8,7 +8,7 @@
     a{
         color:$PrimaryColor;
         text-decoration: none;
-        line-height: 3.5em;
+        line-height: 2.7em;
         font-weight: 100;
     }
     a:hover{
@@ -18,9 +18,10 @@
     span{
         line-height: 3.5em;
         float: right;
+        font-size: .8em;
     }
     img{
-        width: 25%;
+        width: 80px;
         margin: 0 10px 0 10px;
         float: right;
         display: inline-block;

@@ -3,6 +3,7 @@
 @media only screen and (min-width : 576px) and (max-width : 768px) {
     #Header{
         #Sponsor{ 
+            margin: 0 0px 30px;
             border: none;
             margin-bottom: 0;
             .text-left{
@@ -18,7 +19,7 @@
                 padding: 15px;
 
                 img {
-                        width: 25%;
+                  
                         float: unset;
                 }
                 span{float: left;}
@@ -38,11 +39,11 @@
     #Header{
       
         #Sponsor{
-            margin-bottom: 20px;
+            margin: 0 0px 30px;
             border-bottom: unset;
             a{ line-height: 2.5em;}
             span{ float: left; line-height: 3em;}
-            img {width: 20% ; float: unset;}
+            img {float: unset;}
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;
@@ -68,11 +69,11 @@
     #Header{
       
         #Sponsor{
-            margin-bottom: 20px;
+            margin: 0 0px 20px;
             border-bottom: unset;
-            a{ line-height: 2.5em;}
+            a{ line-height: 2.5em;     font-size: .8em;}
             span{ float: left; line-height: 3em;}
-            img {width: 25% ; float: unset;}
+            img { float: unset;}
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;
@@ -81,6 +82,7 @@
             .text-right{
                 text-align: left !important;
                 padding: 5px 15px;
+                font-size: .8em;
                 
             }
             
@@ -99,11 +101,11 @@
     #Header{
       
         #Sponsor{
-            margin-bottom: 0px;
+            margin: 0 0px 0px;
             border-bottom: unset;
             a{ line-height: 2.5em;     font-size: .8em;}
             span{ float: left; line-height: 3em;}
-            img {width: 30% ; float: unset;}
+            img { float: unset;}
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;

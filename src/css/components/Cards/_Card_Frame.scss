@@ -37,36 +37,36 @@
 
   } 
 
-  @mixin SWINGBTN($color) {
+  @mixin SWINGBTN($color, $Quinary) {
     border-color: $color;
     color: $color;
-    background-color: transparent;
+    background-color: $Quinary;
   }
 
 .Card_Frame:nth-child(1){
     img.BannerImage{@include SVG(#FF0053, 40%, 20px 30%);}
-    .Button_Action_FlipMe:hover{@include SWINGBTN(#FF0053); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#FF0053, $Quinary); }
 }
 
 .Card_Frame:nth-child(2){
     img.BannerImage{ @include SVG(#00E4FF, 70%, 30px 15% 0 );}
-    .Button_Action_FlipMe:hover{@include SWINGBTN(#00E4FF); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#00E4FF,$Quinary); }
 }
 
 .Card_Frame:nth-child(3){
     img.BannerImage{ @include SVG(#FF9F00, 70%, 30px 15% 0 ); }
-    .Button_Action_FlipMe:hover{@include SWINGBTN(#FF9F00); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#FF9F00,$Quinary); }
 }
 
 .Card_Frame:nth-child(4){
     img.BannerImage{ @include SVG(#00FF81, 70%, 30px 15% 0 ); }
-    .Button_Action_FlipMe:hover{@include SWINGBTN(#00FF81); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#00FF81,$Quinary); }
 }
 .Card_Frame:nth-child(5){
     img.BannerImage{@include SVG(#FFF13F, 40%, 20px 30%);}
-    .Button_Action_FlipMe:hover{@include SWINGBTN(#FFF13F); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#FFF13F,$Quinary); }
 }
 .Card_Frame:nth-child(6){
     img.BannerImage{ @include SVG(#F89CFF, 70%, 30px 15% 0 ); }
-    .Button_Action_FlipMe:hover{@include SWINGBTN(#F89CFF); }
+    .Button_Action_FlipMe:hover{@include SWINGBTN(#F89CFF,$Quinary); }
 }

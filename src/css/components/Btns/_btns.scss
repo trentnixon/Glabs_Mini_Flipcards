@@ -18,7 +18,7 @@ button{-webkit-appearance:initial}
 // FLIP Button
 */
 .Button_Action_FlipMe{
-  @include BTN($Quaternary,transparent,$Quaternary) ;
+  @include BTN($Quaternary,$Quinary,$Quaternary) ;
   
  
     position: relative;
@@ -41,7 +41,7 @@ button{-webkit-appearance:initial}
 
 }
 .Button_Action_FlipMe:hover{
-  @include BTN($TertiaryColor,$PrimaryColor,$SecondaryColor) ;
+  @include BTN($TertiaryColor,$Quinary,$SecondaryColor) ;
     i{
       @include ROTATEBTN(180deg);
       transition: transform .3s;
@@ -73,7 +73,7 @@ button{-webkit-appearance:initial}
 .side-back{
   // FLIP Button
   .Button_Action_FlipMe{
-    @include BTN($Quaternary,transparent,$Quaternary) ;
+    @include BTN($Quaternary,$Quinary,$Quaternary) ;
     i{
       transition: transform .3s;
     }
@@ -81,7 +81,7 @@ button{-webkit-appearance:initial}
   }
   .Button_Action_FlipMe:hover{
     
-    @include BTN($PrimaryColor, $TertiaryColor,$PrimaryColor) ;
+    @include BTN($PrimaryColor, $Quinary,$PrimaryColor) ;
     
     i{
       @include ROTATEBTN(180deg);
@@ -91,10 +91,10 @@ button{-webkit-appearance:initial}
   
   // CTA BUTTON
   .Button_Action_CTA{
-    @include BTN($TertiaryColor,$PrimaryColor,$TertiaryColor) ;
+    @include BTN($TertiaryColor,$Quinary,$TertiaryColor) ;
   }
   .Button_Action_CTA:hover{
-    @include BTN($PrimaryColor,$TertiaryColor,$TertiaryColor) ;
+    @include BTN($PrimaryColor,$Quinary,$TertiaryColor) ;
   }
 
 

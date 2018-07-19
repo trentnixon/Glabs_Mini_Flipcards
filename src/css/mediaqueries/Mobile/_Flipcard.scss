@@ -1,12 +1,28 @@
 /* Smartphones (portrait and landscape) ----------- */
 /* Large Phones ----------- */
 @media only screen and (min-width : 576px) and (max-width : 768px) {
-        
+    #Glabs{
+        #FlipCard{
+            padding: 0;
+            .Card_Frame{
+                .card-container{
+                    padding: 3px;
+                }
+            } 
+    }}
 }
 
 /* Medium Phones ----------- */
 @media only screen and (min-width : 480px) and (max-width : 576px) {
-
+    #Glabs{
+        #FlipCard{
+            padding: 0;
+            .Card_Frame{
+                .card-container{
+                    padding: 5px;
+                }
+            } 
+    }}
 }
 
 /* Small Phones ----------- */
@@ -24,5 +40,13 @@
     
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
- 
+    #Glabs{
+        #FlipCard{
+            padding: 0;
+            .Card_Frame{
+                .card-container{
+                    padding: 5px;
+                }
+            } 
+    }}
 }
