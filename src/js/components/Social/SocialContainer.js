@@ -11,7 +11,7 @@ import {
 
 // To DO: 
 // Split each social option into components!
-let shareUrl=null, title=null, iconSize=32;
+let shareUrl=null, title=null, iconSize=40;
 export default class SocialBar extends React.Component {
 
     componentWillMount(){ 

@@ -1,8 +1,8 @@
 {
  "data":"Load the Data",
- "ProjectHeader":"Mini X Connected",
+ "ProjectHeader":"The New Frontier – technologies that are transforming our everyday",
  "ProjectSubHeader":"The internet of everything and everyday tech.",
- "ProjectCopy":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+ "ProjectCopy":"From talking robots to self-driving cars, the evolution of modern technology owes a great deal to sci-fi pop culture. Take a look at the origins, development, breakthrough moments and future iterations of the essential kit that we today take for granted.",
 
  "ProjectLogo":"Client-Logo.png",
  "ProjectSocial":{
@@ -14,56 +14,44 @@
  },
  "BodyCopy":[
     {
-         "type":"p",
-         "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
-    },{
-         "type":"h2",
-         "copy":["Lorem ipsum dolor sit amet,"]
-    },{
-         "type":"h3",
-         "copy":["Lorem ipsum dolor sit amet,"]
-    },{
-         "type":"p",
-         "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+         "type":null,
+         "copy":[""]
     }
  ],
  "Cards":[
      {
          "front":{
-            "bgImage":"/assets/images/mini_bg.jpg",
+            "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
                 "media":null,
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"GPS",
-                "subheader":"Mapping our world",
+                "header":"The butler is invisible",
+                "subheader":"In-home AI for the masses",
                 "copy":""
             }
          },
          "back":{
             
-            "bgImage":"/assets/images/mini_back_bg.jpg",
-            "CTA":{
-                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
-                "Label":"Explore Further!"
-            },
+            "bgImage":"/assets/images/Card_Background.jpg",
+            
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"GPS",
-                "subheader":"Mapping our world",
-                "copy":[" eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+                "header":"",
+                "subheader":"",
+                "copy":["In 2018, the average person can barking commands into the hallways of her empty home – and fully expect those orders to be completed. Thank you, ‘Internet of Things’. Originating two decades ago, the term was coined to describe the point at which more objects, appliances and devices were connected to the web than were individual people. This took a while. The first ‘smart refrigerator’, or web fridge, was launched in 2000, and failed (it cost US$20,000). But a ravenous market for smartphones and PCs got us to the tipping point in 2010.","Advances in voice recognition software enabled the first smartphone digital virtual assistant – Siri – on the iPhone 4S in 2011. Today, smart speakers such as Google Home and Apple HomePod act as digital PAs in many households. Next-level connectivity even travels with us in our cars, with a range of intelligent services and apps enabled by platforms such as MINI Connected. Meaning we can bark orders, make requests or shout questions like lunatics – and get answers – wherever we go."]
             } 
          }
     },
     {
          "front":{
-            "bgImage":"/assets/images/mini_bg.jpg",
+            "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
                 "media":null,
                 "src":""
@@ -77,26 +65,23 @@
          },
          "back":{
             
-            "bgImage":"/assets/images/mini_back_bg.jpg",
-            "CTA":{
-                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
-                "Label":"Explore Further!"
-            },
+            "bgImage":"/assets/images/Card_Background.jpg",
+            
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"AI",
-                "subheader":"In-home technology",
+                "header":"",
+                "subheader":"",
                 "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
            }
          }
     },
     {
          "front":{
-            "bgImage":"/assets/images/mini_bg.jpg",
+            "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
                 "media":null,
                 "src":""
@@ -110,26 +95,23 @@
          },
          "back":{
             
-            "bgImage":"/assets/images/mini_back_bg.jpg",
-            "CTA":{
-                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
-                "Label":"Explore Further!"
-            },
+            "bgImage":"/assets/images/Card_Background.jpg",
+            
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"Personal  tech",
-                "subheader":"Music devices and streaming media",
+                "header":"",
+                "subheader":"",
                 "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
             }
          }
     },
     {
          "front":{
-            "bgImage":"/assets/images/mini_bg.jpg",
+            "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
                 "media":null,
                 "src":""
@@ -143,18 +125,15 @@
          },
          "back":{
             
-            "bgImage":"/assets/images/mini_back_bg.jpg",
-            "CTA":{
-                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
-                "Label":"Explore Further!"
-            },
+            "bgImage":"/assets/images/Card_Background.jpg",
+           
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"Personal drones",
+                "header":"",
                 "subheader":"",
                 "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
            }
@@ -162,7 +141,7 @@
     },
     {
          "front":{
-            "bgImage":"/assets/images/mini_bg.jpg",
+            "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
                 "media":null,
                 "src":""
@@ -176,18 +155,15 @@
          },
          "back":{
             
-            "bgImage":"/assets/images/mini_back_bg.jpg",
-            "CTA":{
-                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
-                "Label":"Explore Further!"
-            },
+            "bgImage":"/assets/images/Card_Background.jpg",
+            
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"Autonomous vehicles",
+                "header":"",
                 "subheader":"",
                 "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
            }
@@ -195,7 +171,7 @@
     },
     {
          "front":{
-            "bgImage":"/assets/images/mini_bg.jpg",
+            "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
                 "media":null,
                 "src":""
@@ -209,18 +185,15 @@
          },
          "back":{
             
-            "bgImage":"/assets/images/mini_back_bg.jpg",
-            "CTA":{
-                "location":"https://www.mini.co.uk/en_GB/home/range/mini-connected.html",
-                "Label":"Explore Further!"
-            },
+            "bgImage":"/assets/images/Card_Background.jpg",
+          
             "banner":{
                 "media":null, 
                 "src":""
             },
             "content":{
                 "type":"basic",
-                "header":"Robotics",
+                "header":"",
                 "subheader":"",
                 "copy":["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
            }

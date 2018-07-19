@@ -1,25 +1,31 @@
 #Header{
 
+   
     @include BMP($SecondaryColor,0%,10px 0px) ;
 
     height:auto;
-    border-bottom: 5px solid $TertiaryColor;
+    padding-bottom: 40px;
 
     h1{
+        font-family: $FontFamilyBody;
         display: inline;
-        @include FONT($FontLargeSize,$FontLargeLine,$FontLargeWeight,0 0 10px) ; 
-       
+        @include FONT($FontLargeSize,1em,normal,0 0 10px) ; 
+        width: 60%;
+        display: inline-block;
         color:$SecondaryHColor;
+        margin: 0 0 20px;
     }
 
     h2{
+        font-family: $FontFamilyBody;
         display: inline;
         @include FONT($FontMedSize,$FontMedLine,$FontMedWeight,0 0 10px) ;
         color:$SecondaryHColor;
     }
 
     p{
-        @include FONT($FontSmallSize,$FontSmallLine,$FontSmallWeight,0 20% 10px 0 ) ; 
+        font-family: $FontFamilyBody;
+        @include FONT($FontSmallSize,1.3em,bold,0 20% 10px 0 ) ; 
     }
     @import "./_Sponsor_Top.scss";
 } 

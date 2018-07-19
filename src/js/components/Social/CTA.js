@@ -9,7 +9,9 @@ export default class Header extends Component {
                 className="ReadMore"
                 onClick={()=>{GA('Link Clicked','CTA Bar','https://google.com')} }
             >
-                Add a Call to Action for <strong>This: Project</strong> <span className="chevron right"></span>
+           
+             Read more in our content series:<br />
+             <strong>The internet of everything and everyday tech</strong> <span className="chevron right"></span>
             </a>
         );
     } 

@@ -128,7 +128,7 @@ textarea:focus {
 /*- Typograpy  -*/
 html body {
   font-family: "TS3 Text Sans";
-  background-color: #232f34; }
+  background-color: #060B38; }
   html body .nopadding {
     padding: 0; }
   html body .nomargin {
@@ -138,7 +138,7 @@ html body {
 #LoadingScreen {
   height: 100vh;
   width: 100vh;
-  background-color: #232f34; }
+  background-color: #060B38; }
   #LoadingScreen .lds-facebook {
     display: inline-block;
     position: relative;
@@ -151,7 +151,7 @@ html body {
     position: absolute;
     left: 6px;
     width: 13px;
-    background: #1f6bf2;
+    background: #69D1CA;
     animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite; }
   #LoadingScreen .lds-facebook div:nth-child(1) {
     left: 6px;
@@ -172,7 +172,7 @@ html body {
     height: 26px; } }
 
 #Glabs {
-  background-color: #232f34;
+  background-color: #060B38;
   margin: 0%;
   padding: 0%;
   /**
@@ -182,7 +182,6 @@ html body {
 // FLIP Button
 */
   /* Open or Close All Cards btn, Located top of the page */
-  /* Float btn links to Glabs */
   /**
 
   Set Btn Styles for the Back side of the card
@@ -264,18 +263,17 @@ html body {
   #Glabs button {
     -webkit-appearance: initial; }
   #Glabs .Button_Action_CTA {
-    color: #232f34;
-    background-color: #fefdf8;
-    border-color: #232f34; }
+    color: #060B38;
+    background-color: #DCDCDC;
+    border-color: #060B38; }
   #Glabs .Button_Action_CTA:hover {
-    color: #1f6bf2;
-    background-color: #fefdf8;
-    border-color: #1f6bf2; }
+    color: #69D1CA;
+    background-color: #DCDCDC;
+    border-color: #69D1CA; }
   #Glabs .Button_Action_FlipMe {
-    color: #232f34;
-    background-color: #fefdf8;
-    border-color: #fefdf8;
-    transition: transform .3s;
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
     position: relative;
     top: -50%;
     left: 0;
@@ -283,101 +281,96 @@ html body {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-    border: 5px solid #fefdf8;
-    width: 60px;
-    height: 60px;
-    cursor: pointer; }
+    border: 1px solid #fff;
+    width: 60%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px; }
+    #Glabs .Button_Action_FlipMe i {
+      transition: transform .3s; }
   #Glabs .Button_Action_FlipMe:hover {
-    color: #1f6bf2;
-    background-color: #232f34;
-    border-color: #fefdf8;
-    transform: rotate(180deg);
-    transition: transform .3s; }
+    color: #69D1CA;
+    background-color: #060B38;
+    border-color: #DCDCDC; }
+    #Glabs .Button_Action_FlipMe:hover i {
+      transform: rotate(180deg);
+      transition: transform .3s; }
   #Glabs .OpenAll {
     float: right;
     margin: 10px 0;
-    color: #232f34;
-    background-color: #1f6bf2;
-    border-color: #1f6bf2;
+    color: #060B38;
+    background-color: #69D1CA;
+    border-color: #69D1CA;
     transition: transform 1s; }
   #Glabs .OpenAll:hover {
-    color: #1f6bf2;
-    background-color: #232f34;
-    border-color: #232f34;
+    color: #69D1CA;
+    background-color: #060B38;
+    border-color: #060B38;
     transform: rotate(180deg);
     transition: transform 1s; }
-  #Glabs .Button_Action_PZ {
-    color: #232f34;
-    background-color: #1f6bf2;
-    border-color: #1f6bf2;
-    transition: transform .5s;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: .9em;
-    min-width: 30px;
-    min-height: 30px; }
-  #Glabs .Button_Action_PZ:hover {
-    color: #1f6bf2;
-    background-color: #232f34;
-    border-color: #232f34;
-    transform: rotate(180deg);
-    transition: transform .5s; }
   #Glabs .side-back .Button_Action_FlipMe {
-    color: #1f6bf2;
-    background-color: #232f34;
-    border-color: #232f34;
-    transition: transform .3s; }
+    color: #69D1CA;
+    background-color: #060B38;
+    border-color: #060B38; }
+    #Glabs .side-back .Button_Action_FlipMe i {
+      transition: transform .3s; }
   #Glabs .side-back .Button_Action_FlipMe:hover {
-    color: #232f34;
-    background-color: #1f6bf2;
-    border-color: #232f34;
-    transform: rotate(180deg);
-    transition: transform .3s; }
+    color: #060B38;
+    background-color: #69D1CA;
+    border-color: #060B38; }
+    #Glabs .side-back .Button_Action_FlipMe:hover i {
+      transform: rotate(180deg);
+      transition: transform .3s; }
   #Glabs .side-back .Button_Action_CTA {
-    color: #1f6bf2;
-    background-color: #232f34;
-    border-color: #1f6bf2; }
+    color: #69D1CA;
+    background-color: #060B38;
+    border-color: #69D1CA; }
   #Glabs .side-back .Button_Action_CTA:hover {
-    color: #232f34;
-    background-color: #1f6bf2;
-    border-color: #1f6bf2; }
+    color: #060B38;
+    background-color: #69D1CA;
+    border-color: #69D1CA; }
   #Glabs h1, #Glabs h2, #Glabs h3 {
-    font-family: "Guardian Headline Regular"; }
+    font-family: "GH Guardian Headline"; }
   #Glabs p, #Glabs span, #Glabs a {
     font-family: "TS3 Text Sans"; }
   #Glabs #Header {
-    background-color: #fefdf8;
+    background-color: #DCDCDC;
     margin: 0%;
     padding: 10px 0px;
     height: auto;
-    border-bottom: 5px solid #1f6bf2; }
+    padding-bottom: 40px; }
     #Glabs #Header h1 {
+      font-family: "TS3 Text Sans";
       display: inline;
-      font-size: 3em;
-      font-weight: 100;
-      line-height: 1.2em;
+      font-size: 2.5em;
+      font-weight: normal;
+      line-height: 1em;
       margin: 0 0 10px;
-      color: #232f34; }
+      width: 60%;
+      display: inline-block;
+      color: #000000;
+      margin: 0 0 20px; }
     #Glabs #Header h2 {
+      font-family: "TS3 Text Sans";
       display: inline;
       font-size: 2em;
       font-weight: 100;
       line-height: 1.1em;
       margin: 0 0 10px;
-      color: #232f34; }
+      color: #000000; }
     #Glabs #Header p {
+      font-family: "TS3 Text Sans";
       font-size: 1.2em;
-      font-weight: 100;
-      line-height: 1.5em;
+      font-weight: bold;
+      line-height: 1.3em;
       margin: 0 20% 10px 0; }
     #Glabs #Header #Sponsor {
-      border-bottom: 2px solid #1f6bf2;
+      border-bottom: 2px solid #69D1CA;
       padding-bottom: 10px;
       margin-bottom: 40px;
-      color: #232f34; }
+      color: #060B38; }
       #Glabs #Header #Sponsor a {
-        color: #232f34;
+        color: #060B38;
         text-decoration: none;
         line-height: 3.5em;
         font-weight: 100; }
@@ -392,19 +385,19 @@ html body {
         float: right;
         display: inline-block; }
   #Glabs .BodyCopy {
-    color: #fefdf8;
+    color: #DCDCDC;
     background-color: transparent;
     margin: 60px 20px 0;
     padding: 0px; }
     #Glabs .BodyCopy h1 {
-      font-size: 3em;
-      font-weight: 100;
-      line-height: 1.2em;
+      font-size: 2.5em;
+      font-weight: normal;
+      line-height: 1em;
       margin: 0 0 10px; }
     #Glabs .BodyCopy h2 {
-      font-size: 3em;
-      font-weight: 100;
-      line-height: 1.2em;
+      font-size: 2.5em;
+      font-weight: normal;
+      line-height: 1em;
       margin: 0 0 10px; }
     #Glabs .BodyCopy h3 {
       font-size: 2em;
@@ -417,7 +410,7 @@ html body {
       line-height: 1.5em;
       margin: 0 0 10px; }
   #Glabs #FlipCard {
-    background-color: #232f34;
+    background-color: #060B38;
     margin: 1% 1% 60px;
     padding: 2%;
     /*- Card sides -*/
@@ -433,14 +426,14 @@ html body {
     }
 -*/ }
     #Glabs #FlipCard .Card_Frame {
-      background-color: #232f34;
+      background-color: #060B38;
       margin: 0;
       padding: 0%; }
       #Glabs #FlipCard .Card_Frame .card-container {
-        height: 490px;
-        background-color: #232f34;
+        height: 550px;
+        background-color: #060B38;
         margin: 0;
-        padding: 3px;
+        padding: 15px;
         position: relative;
         z-index: 1;
         perspective: 1000px; }
@@ -463,7 +456,7 @@ html body {
       height: 100%;
       backface-visibility: hidden;
       box-shadow: 0 10px 35px rgba(50, 50, 93, 0.1), 0 2px 15px rgba(0, 0, 0, 0.07);
-      background-size: contain; }
+      background-size: cover; }
       #Glabs #FlipCard .card-side .card-side-outer {
         background-color: transparent;
         margin: 0;
@@ -476,23 +469,27 @@ html body {
           font-size: .72em;
           /* Inner Card Elements */ }
           #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h1 {
-            font-size: 3em;
-            font-weight: 100;
-            line-height: 1.2em;
+            font-size: 2.5em;
+            font-weight: normal;
+            line-height: 1em;
             margin: 0;
-            font-family: "Roboto", sans-serif; }
+            font-family: "GH Guardian Headline"; }
           #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h2 {
-            font-size: 3em;
-            font-weight: 100;
-            line-height: 1.2em;
-            margin: 0;
-            font-family: "Roboto", sans-serif; }
+            font-family: "GH Guardian Headline";
+            margin: 0 0 15px 0;
+            padding-top: 1.2em;
+            font-size: 3.2em;
+            font-weight: 800;
+            line-height: 1em;
+            margin: 0; }
           #Glabs #FlipCard .card-side .card-side-outer .card-side-layout h3 {
-            font-size: 2em;
+            font-size: 1.6em;
             font-weight: 100;
             line-height: 1.1em;
             margin: 0;
-            font-family: "Roboto", sans-serif; }
+            font-family: "TS3 Text Sans";
+            margin: 10px 0 0 0;
+            color: #DCDCDC; }
           #Glabs #FlipCard .card-side .card-side-outer .card-side-layout p {
             font-size: 1.2em;
             font-weight: 100;
@@ -520,7 +517,7 @@ html body {
               margin: 10px 0 50px;
               padding: 0; }
             #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Card_Bottom .ActionBar {
-              background-color: #1f6bf2;
+              background-color: transparent;
               margin: 0;
               padding: 0;
               position: relative;
@@ -528,35 +525,37 @@ html body {
     #Glabs #FlipCard .card-container .side-front [class^=col-xs]:first-of-type {
       padding-left: 0; }
     #Glabs #FlipCard .card-container .side-front {
-      background-color: #fefdf8; }
+      background-color: #DCDCDC; }
       #Glabs #FlipCard .card-container .side-front h2 {
-        color: #fefdf8;
+        color: #DCDCDC;
         text-align: center;
         padding-top: 2.7em; }
       #Glabs #FlipCard .card-container .side-front h3 {
-        color: #1f6bf2;
+        color: #69D1CA;
         text-align: center; }
       #Glabs #FlipCard .card-container .side-front p {
-        color: #fefdf8; }
+        color: #DCDCDC; }
       #Glabs #FlipCard .card-container .side-front .Side-Content {
-        background-color: #fefdf8; }
+        background-color: #DCDCDC; }
     #Glabs #FlipCard .card-container .side-back {
       z-index: 2;
-      padding: 0;
+      padding: 10px 0;
       transform: rotateY(180deg);
-      background-color: #232f34; }
+      background-color: #060B38; }
       #Glabs #FlipCard .card-container .side-back .Side-Content {
-        background-color: #232f34; }
+        background-color: #060B38; }
       #Glabs #FlipCard .card-container .side-back h1 {
-        color: #fefdf8; }
+        color: #DCDCDC; }
       #Glabs #FlipCard .card-container .side-back h2 {
-        color: #1f6bf2;
-        padding: 10px 0 5px 0; }
+        color: #69D1CA;
+        padding: 10px 0 5px 0;
+        display: none; }
       #Glabs #FlipCard .card-container .side-back h3 {
-        color: #fefdf8;
-        padding: 0 0 20px 0; }
+        color: #DCDCDC;
+        padding: 0 0 20px 0;
+        display: none; }
       #Glabs #FlipCard .card-container .side-back p {
-        color: #fefdf8; }
+        color: #DCDCDC; }
     #Glabs #FlipCard .card-container.back .card-body {
       transform: rotateY(180deg); }
     #Glabs #FlipCard .card-container.back > .card-body > .side-front {
@@ -568,53 +567,39 @@ html body {
       z-index: 9;
       width: 100% !important; }
   #Glabs #ShareBar {
-    background-color: #fefdf8;
-    margin-top: 60px;
-    color: #232f34;
-    padding: .5em 2em; }
+    background-color: #69D1CA;
+    margin-top: 0px;
+    color: #060B38;
+    padding: 2em 2em;
+    font-family: "TS3 Text Sans"; }
     #Glabs #ShareBar h3 {
-      color: #fefdf8; }
+      color: #DCDCDC; }
     #Glabs #ShareBar .ReadMore {
       font-weight: 100;
       transition: all .4s ease-in;
-      color: #232f34;
-      line-height: 2.6em; }
+      color: #DCDCDC;
+      line-height: 1.3em;
+      font-size: 1.4em; }
       #Glabs #ShareBar .ReadMore strong {
         font-weight: 800; }
     #Glabs #ShareBar .ReadMore:hover {
       text-decoration: none; }
-    #Glabs #ShareBar .chevron.right:before {
-      left: 0;
-      transform: rotate(45deg); }
-    #Glabs #ShareBar .chevron.bottom:before {
-      top: 0;
-      transform: rotate(135deg); }
-    #Glabs #ShareBar .chevron.left:before {
-      left: 0.25em;
-      transform: rotate(-135deg); }
-    #Glabs #ShareBar .chevron::before {
-      border-style: solid;
-      border-width: 0.15em 0.15em 0 0;
-      content: '';
-      display: inline-block;
-      height: 0.45em;
-      left: 0.15em;
-      position: relative;
-      top: 1.1em;
-      transform: rotate(-45deg);
-      vertical-align: top;
-      width: 0.45em; }
     #Glabs #ShareBar #ShareMe {
-      background-color: #232f34;
-      color: #232f34;
-      border-radius: 8px;
-      padding: 5px 10px;
-      display: inline-block; }
+      background-color: #69D1CA;
+      color: #060B38;
+      font-family: "TS3 Text Sans";
+      border: 1px solid #060B38;
+      border-radius: 10px;
+      padding: 2px 10px 2px 18px;
+      display: inline-block;
+      margin-left: 15px; }
       #Glabs #ShareBar #ShareMe h3 {
-        font-size: 1em;
+        font-size: 1.2em;
         font-weight: 100;
+        color: #060B38;
         display: inline-block;
-        line-height: 2em;
+        line-height: 2.2em;
+        font-family: "TS3 Text Sans";
         margin: 0 10px 0 0; }
       #Glabs #ShareBar #ShareMe ul {
         list-style: none;
@@ -624,16 +609,26 @@ html body {
         float: right; }
         #Glabs #ShareBar #ShareMe ul li {
           margin: 0 2px;
-          cursor: pointer; }
+          cursor: pointer;
+          border-radius: 5px;
+          background-color: transparent; }
+          #Glabs #ShareBar #ShareMe ul li .FooterShareIcon {
+            width: 40px;
+            height: 40px; }
           #Glabs #ShareBar #ShareMe ul li svg {
-            background-color: transparent !important; }
+            background-color: transparent !important;
+            width: 40px;
+            height: 40px; }
           #Glabs #ShareBar #ShareMe ul li circle, #Glabs #ShareBar #ShareMe ul li rect {
-            fill: #232f34; }
+            fill: transparent; }
+          #Glabs #ShareBar #ShareMe ul li path {
+            fill: #060B38; }
   #Glabs #BottomBar {
-    background-color: #1f6bf2;
+    display: none;
+    background-color: #69D1CA;
     margin: 0%;
     padding: 10px;
-    border-top: 3px solid #232f34;
+    border-top: 3px solid #060B38;
     height: 70px;
     width: 100%;
     bottom: 0;
@@ -762,7 +757,7 @@ html body {
       #Glabs #ShareBar #ShareMe {
         position: relative;
         top: -30px;
-        border: 1px solid #fefdf8; } }
+        border: 1px solid #DCDCDC; } }
   @media only screen and (min-width: 480px) and (max-width: 576px) {
     #Glabs #ShareBar {
       margin-top: 30px; }
@@ -779,7 +774,7 @@ html body {
       #Glabs #ShareBar #ShareMe {
         position: relative;
         top: -30px;
-        border: 1px solid #fefdf8; } }
+        border: 1px solid #DCDCDC; } }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     #Glabs #ShareBar {
       margin-top: 30px; }
@@ -796,7 +791,7 @@ html body {
       #Glabs #ShareBar #ShareMe {
         position: relative;
         top: -30px;
-        border: 1px solid #fefdf8; } }
+        border: 1px solid #DCDCDC; } }
   @media only screen and (max-width: 320px) {
     #Glabs #ShareBar {
       margin-top: 30px; }
@@ -814,7 +809,7 @@ html body {
       #Glabs #ShareBar #ShareMe {
         position: relative;
         top: -30px;
-        border: 1px solid #fefdf8; } }
+        border: 1px solid #DCDCDC; } }
   @media only screen and (min-width: 990px) and (max-width: 1024px) {
     #Glabs {
       /* Styles */ } }

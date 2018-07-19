@@ -4,9 +4,9 @@
 
     .card-container {
 
-            height:490px;
+            height:550px;
 
-            @include BMP($PrimaryColor,0,3px);
+            @include BMP($PrimaryColor,0,15px);
             
             position: relative;
             z-index: 1;
