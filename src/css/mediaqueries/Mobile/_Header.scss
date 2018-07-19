@@ -1,23 +1,33 @@
 /* Smartphones (portrait and landscape) ----------- */
 /* Large Phones ----------- */
 @media only screen and (min-width : 576px) and (max-width : 768px) {
-    header{
-        #Sponsor{ img {width: 50%;} }
-        
-        .container{
-            .Headers{
-                margin: 0;
-                
-                h1{   font-size: 2em; }
-                h1:nth-child(2){ font-size: 4em;}  
-                h1:nth-child(3){ font-size: 4em;}  
-                h1:nth-child(3):after{bottom: 65px; height: 130px;}
+    #Header{
+        #Sponsor{ 
+            border: none;
+            margin-bottom: 0;
+            .text-left{
+                border-bottom: 2px solid #80D1D6;
+               flex: 0 0 100%;
+                max-width: 100%;
             }
-            p{
-               
-                margin: 30px 0;
+            .text-right{
+                text-align: left !important;
+                flex: 0 0 100%;
+                max-width: 100%;
+                border: none;
+                padding: 15px;
+
+                img {
+                        width: 25%;
+                        float: unset;
+                }
+                span{float: left;}
+                  
             }
-        } 
+        }
+        .col-12{ padding: 0;}
+        h1{ width: 100%;}
+        p{ margin: 0;}
     }
 }
 
@@ -25,7 +35,7 @@
 /* Medium Phones ----------- */
 @media only screen and (min-width : 480px) and (max-width : 576px) {
 
-    header{
+    #Header{
       
         #Sponsor{
             margin-bottom: 20px;
@@ -39,25 +49,15 @@
             }
             .text-right{
                 text-align: left !important;
+                padding: 5px 15px;
             }
             
     }
 
-        .container{
-            .Headers{
-                margin: 0;
-                h1{   font-size: 1.8em; }
-               
-                h1:nth-child(2){ font-size: 3.5em;}  
-                h1:nth-child(3){ font-size: 3.5em;}  
-                h1:nth-child(3):after{bottom: 55px; height: 130px;}
-               
-            }
-            p{
-                font-size: 1.1em;
-                margin: 30px 0;
-            }
-        } 
+    .col-12{ padding: 0;}
+    h1{ width: 100%;}
+    p{ margin: 0;}
+
     }
 
 }
@@ -65,14 +65,14 @@
 /* Small Phones ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
-    header{
+    #Header{
       
         #Sponsor{
             margin-bottom: 20px;
             border-bottom: unset;
             a{ line-height: 2.5em;}
             span{ float: left; line-height: 3em;}
-            img {width: 20% ; float: unset;}
+            img {width: 25% ; float: unset;}
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;
@@ -80,41 +80,30 @@
             }
             .text-right{
                 text-align: left !important;
+                padding: 5px 15px;
                 
             }
             
     }
 
-        .container{
-            padding: 0;
-            .Headers{
-                margin: 0;
-                h1{   font-size: 1.3em; }
-               
-                h1:nth-child(2){ font-size: 3.5em;}  
-                h1:nth-child(3){ font-size: 2.5em;}  
-                h1:nth-child(3):after{bottom: 110px; height: 100px; right: 30px}
-               
-            }
-            p{  
-                font-size: 1.1em;
-                margin: 30px 0;
-            }
-        } 
+    .col-12{ padding: 0;}
+    h1{ width: 100%;}
+    p{ margin: 0;}
+
     }
    
 }
     
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-    header{
+    #Header{
       
         #Sponsor{
-            margin-bottom: 20px;
+            margin-bottom: 0px;
             border-bottom: unset;
-            a{ line-height: 2.5em;}
+            a{ line-height: 2.5em;     font-size: .8em;}
             span{ float: left; line-height: 3em;}
-            img {width: 20% ; float: unset;}
+            img {width: 30% ; float: unset;}
             
             .text-left{
                 border-bottom: 2px solid #80D1D6;
@@ -122,26 +111,15 @@
             }
             .text-right{
                 text-align: left !important;
+                padding: 5px 15px;
                 
             }
             
     }
 
-        .container{
-            padding: 0;
-            .Headers{
-                margin: 0;
-                h1{   font-size: 1.3em; }
-               
-                h1:nth-child(2){ font-size: 3.5em;}  
-                h1:nth-child(3){ font-size: 2.3em;}  
-                h1:nth-child(3):after{bottom: 110px; height: 100px; right: 10px}
-               
-            }
-            p{  
-                font-size: 1.1em;
-                margin: 30px 0;
-            }
-        } 
+    .col-12{ padding: 0;}
+    h1{ width: 100%; font-size: 2.1em; line-height: 1.2em;}
+    p{ margin: 0;}
+
     }
 }

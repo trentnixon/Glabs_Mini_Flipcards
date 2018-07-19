@@ -282,12 +282,13 @@ html body {
     margin-right: auto;
     position: absolute;
     border: 1px solid #fff;
-    width: 60%;
-    height: 40px;
+    width: 80%;
+    height: 50px;
     cursor: pointer;
-    border-radius: 20px; }
+    border-radius: 30px; }
     #Glabs .Button_Action_FlipMe i {
-      transition: transform .3s; }
+      transition: transform .3s;
+      font-size: 40px; }
   #Glabs .Button_Action_FlipMe:hover {
     color: #69D1CA;
     background-color: #060B38;
@@ -309,9 +310,9 @@ html body {
     transform: rotate(180deg);
     transition: transform 1s; }
   #Glabs .side-back .Button_Action_FlipMe {
-    color: #69D1CA;
-    background-color: #060B38;
-    border-color: #060B38; }
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff; }
     #Glabs .side-back .Button_Action_FlipMe i {
       transition: transform .3s; }
   #Glabs .side-back .Button_Action_FlipMe:hover {
@@ -430,10 +431,10 @@ html body {
       margin: 0;
       padding: 0%; }
       #Glabs #FlipCard .Card_Frame .card-container {
-        height: 550px;
+        height: 580px;
         background-color: #060B38;
         margin: 0;
-        padding: 15px;
+        padding: 10px;
         position: relative;
         z-index: 1;
         perspective: 1000px; }
@@ -444,7 +445,62 @@ html body {
           transform-style: preserve-3d;
           transition: all .7s linear;
           width: 100%;
-          height: 100%; }
+          height: 100%;
+          border-top: 1px solid rgba(255, 255, 255, 0.2); }
+    #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
+      width: 40%;
+      margin: 20px 30%;
+      -webkit-filter: drop-shadow(1px 1px 3px #FF0053);
+      filter: drop-shadow(1px 1px 3px #FF0053); }
+    #Glabs #FlipCard .Card_Frame:nth-child(1) .Button_Action_FlipMe:hover {
+      border-color: #FF0053;
+      color: #FF0053;
+      background-color: transparent; }
+    #Glabs #FlipCard .Card_Frame:nth-child(2) img.BannerImage {
+      width: 70%;
+      margin: 30px 15% 0;
+      -webkit-filter: drop-shadow(1px 1px 3px #00E4FF);
+      filter: drop-shadow(1px 1px 3px #00E4FF); }
+    #Glabs #FlipCard .Card_Frame:nth-child(2) .Button_Action_FlipMe:hover {
+      border-color: #00E4FF;
+      color: #00E4FF;
+      background-color: transparent; }
+    #Glabs #FlipCard .Card_Frame:nth-child(3) img.BannerImage {
+      width: 70%;
+      margin: 30px 15% 0;
+      -webkit-filter: drop-shadow(1px 1px 3px #FF9F00);
+      filter: drop-shadow(1px 1px 3px #FF9F00); }
+    #Glabs #FlipCard .Card_Frame:nth-child(3) .Button_Action_FlipMe:hover {
+      border-color: #FF9F00;
+      color: #FF9F00;
+      background-color: transparent; }
+    #Glabs #FlipCard .Card_Frame:nth-child(4) img.BannerImage {
+      width: 70%;
+      margin: 30px 15% 0;
+      -webkit-filter: drop-shadow(1px 1px 3px #00FF81);
+      filter: drop-shadow(1px 1px 3px #00FF81); }
+    #Glabs #FlipCard .Card_Frame:nth-child(4) .Button_Action_FlipMe:hover {
+      border-color: #00FF81;
+      color: #00FF81;
+      background-color: transparent; }
+    #Glabs #FlipCard .Card_Frame:nth-child(5) img.BannerImage {
+      width: 40%;
+      margin: 20px 30%;
+      -webkit-filter: drop-shadow(1px 1px 3px #FFF13F);
+      filter: drop-shadow(1px 1px 3px #FFF13F); }
+    #Glabs #FlipCard .Card_Frame:nth-child(5) .Button_Action_FlipMe:hover {
+      border-color: #FFF13F;
+      color: #FFF13F;
+      background-color: transparent; }
+    #Glabs #FlipCard .Card_Frame:nth-child(6) img.BannerImage {
+      width: 70%;
+      margin: 30px 15% 0;
+      -webkit-filter: drop-shadow(1px 1px 3px #F89CFF);
+      filter: drop-shadow(1px 1px 3px #F89CFF); }
+    #Glabs #FlipCard .Card_Frame:nth-child(6) .Button_Action_FlipMe:hover {
+      border-color: #F89CFF;
+      color: #F89CFF;
+      background-color: transparent; }
     #Glabs #FlipCard .card-side {
       background-color: transparent;
       margin: 0;
@@ -499,8 +555,6 @@ html body {
             background-color: transparent;
             margin: 0;
             padding: 1px; }
-            #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Banner img {
-              width: 100%; }
           #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Content {
             background-color: transparent;
             margin: 0;
@@ -539,7 +593,7 @@ html body {
         background-color: #DCDCDC; }
     #Glabs #FlipCard .card-container .side-back {
       z-index: 2;
-      padding: 10px 0;
+      padding: 20px 5px;
       transform: rotateY(180deg);
       background-color: #060B38; }
       #Glabs #FlipCard .card-container .side-back .Side-Content {
@@ -635,117 +689,107 @@ html body {
     left: 0;
     z-index: 99; }
   @media only screen and (min-width: 576px) and (max-width: 768px) {
-    #Glabs header #Sponsor img {
-      width: 50%; }
-    #Glabs header .container .Headers {
-      margin: 0; }
-      #Glabs header .container .Headers h1 {
-        font-size: 2em; }
-      #Glabs header .container .Headers h1:nth-child(2) {
-        font-size: 4em; }
-      #Glabs header .container .Headers h1:nth-child(3) {
-        font-size: 4em; }
-      #Glabs header .container .Headers h1:nth-child(3):after {
-        bottom: 65px;
-        height: 130px; }
-    #Glabs header .container p {
-      margin: 30px 0; } }
+    #Glabs #Header #Sponsor {
+      border: none;
+      margin-bottom: 0; }
+      #Glabs #Header #Sponsor .text-left {
+        border-bottom: 2px solid #80D1D6;
+        flex: 0 0 100%;
+        max-width: 100%; }
+      #Glabs #Header #Sponsor .text-right {
+        text-align: left !important;
+        flex: 0 0 100%;
+        max-width: 100%;
+        border: none;
+        padding: 15px; }
+        #Glabs #Header #Sponsor .text-right img {
+          width: 25%;
+          float: unset; }
+        #Glabs #Header #Sponsor .text-right span {
+          float: left; }
+    #Glabs #Header .col-12 {
+      padding: 0; }
+    #Glabs #Header h1 {
+      width: 100%; }
+    #Glabs #Header p {
+      margin: 0; } }
   @media only screen and (min-width: 480px) and (max-width: 576px) {
-    #Glabs header #Sponsor {
+    #Glabs #Header #Sponsor {
       margin-bottom: 20px;
       border-bottom: unset; }
-      #Glabs header #Sponsor a {
+      #Glabs #Header #Sponsor a {
         line-height: 2.5em; }
-      #Glabs header #Sponsor span {
+      #Glabs #Header #Sponsor span {
         float: left;
         line-height: 3em; }
-      #Glabs header #Sponsor img {
+      #Glabs #Header #Sponsor img {
         width: 20%;
         float: unset; }
-      #Glabs header #Sponsor .text-left {
+      #Glabs #Header #Sponsor .text-left {
         border-bottom: 2px solid #80D1D6; }
-      #Glabs header #Sponsor .text-right {
-        text-align: left !important; }
-    #Glabs header .container .Headers {
-      margin: 0; }
-      #Glabs header .container .Headers h1 {
-        font-size: 1.8em; }
-      #Glabs header .container .Headers h1:nth-child(2) {
-        font-size: 3.5em; }
-      #Glabs header .container .Headers h1:nth-child(3) {
-        font-size: 3.5em; }
-      #Glabs header .container .Headers h1:nth-child(3):after {
-        bottom: 55px;
-        height: 130px; }
-    #Glabs header .container p {
-      font-size: 1.1em;
-      margin: 30px 0; } }
+      #Glabs #Header #Sponsor .text-right {
+        text-align: left !important;
+        padding: 5px 15px; }
+    #Glabs #Header .col-12 {
+      padding: 0; }
+    #Glabs #Header h1 {
+      width: 100%; }
+    #Glabs #Header p {
+      margin: 0; } }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
-    #Glabs header #Sponsor {
+    #Glabs #Header #Sponsor {
       margin-bottom: 20px;
       border-bottom: unset; }
-      #Glabs header #Sponsor a {
+      #Glabs #Header #Sponsor a {
         line-height: 2.5em; }
-      #Glabs header #Sponsor span {
+      #Glabs #Header #Sponsor span {
         float: left;
         line-height: 3em; }
-      #Glabs header #Sponsor img {
-        width: 20%;
+      #Glabs #Header #Sponsor img {
+        width: 25%;
         float: unset; }
-      #Glabs header #Sponsor .text-left {
+      #Glabs #Header #Sponsor .text-left {
         border-bottom: 2px solid #80D1D6; }
-      #Glabs header #Sponsor .text-right {
-        text-align: left !important; }
-    #Glabs header .container {
+      #Glabs #Header #Sponsor .text-right {
+        text-align: left !important;
+        padding: 5px 15px; }
+    #Glabs #Header .col-12 {
       padding: 0; }
-      #Glabs header .container .Headers {
-        margin: 0; }
-        #Glabs header .container .Headers h1 {
-          font-size: 1.3em; }
-        #Glabs header .container .Headers h1:nth-child(2) {
-          font-size: 3.5em; }
-        #Glabs header .container .Headers h1:nth-child(3) {
-          font-size: 2.5em; }
-        #Glabs header .container .Headers h1:nth-child(3):after {
-          bottom: 110px;
-          height: 100px;
-          right: 30px; }
-      #Glabs header .container p {
-        font-size: 1.1em;
-        margin: 30px 0; } }
+    #Glabs #Header h1 {
+      width: 100%; }
+    #Glabs #Header p {
+      margin: 0; } }
   @media only screen and (max-width: 320px) {
-    #Glabs header #Sponsor {
-      margin-bottom: 20px;
+    #Glabs #Header #Sponsor {
+      margin-bottom: 0px;
       border-bottom: unset; }
-      #Glabs header #Sponsor a {
-        line-height: 2.5em; }
-      #Glabs header #Sponsor span {
+      #Glabs #Header #Sponsor a {
+        line-height: 2.5em;
+        font-size: .8em; }
+      #Glabs #Header #Sponsor span {
         float: left;
         line-height: 3em; }
-      #Glabs header #Sponsor img {
-        width: 20%;
+      #Glabs #Header #Sponsor img {
+        width: 30%;
         float: unset; }
-      #Glabs header #Sponsor .text-left {
+      #Glabs #Header #Sponsor .text-left {
         border-bottom: 2px solid #80D1D6; }
-      #Glabs header #Sponsor .text-right {
-        text-align: left !important; }
-    #Glabs header .container {
+      #Glabs #Header #Sponsor .text-right {
+        text-align: left !important;
+        padding: 5px 15px; }
+    #Glabs #Header .col-12 {
       padding: 0; }
-      #Glabs header .container .Headers {
-        margin: 0; }
-        #Glabs header .container .Headers h1 {
-          font-size: 1.3em; }
-        #Glabs header .container .Headers h1:nth-child(2) {
-          font-size: 3.5em; }
-        #Glabs header .container .Headers h1:nth-child(3) {
-          font-size: 2.3em; }
-        #Glabs header .container .Headers h1:nth-child(3):after {
-          bottom: 110px;
-          height: 100px;
-          right: 10px; }
-      #Glabs header .container p {
-        font-size: 1.1em;
-        margin: 30px 0; } }
+    #Glabs #Header h1 {
+      width: 100%;
+      font-size: 2.1em;
+      line-height: 1.2em; }
+    #Glabs #Header p {
+      margin: 0; } }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    #Glabs #Glabs #FlipCard {
+      padding: 0; }
+      #Glabs #Glabs #FlipCard .Card_Frame .card-container {
+        padding: 5px; } }
   @media only screen and (min-width: 576px) and (max-width: 768px) {
     #Glabs #ShareBar {
       margin-top: 30px; }
@@ -810,6 +854,89 @@ html body {
         position: relative;
         top: -30px;
         border: 1px solid #DCDCDC; } }
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
+    #Glabs #ShareBar {
+      margin: 0;
+      padding: 2em 2em 1em; }
+      #Glabs #ShareBar .col-sm-12 {
+        text-align: center !important; }
+      #Glabs #ShareBar .ReadMore {
+        top: -25px;
+        position: relative; }
+      #Glabs #ShareBar #ShareMe {
+        position: relative;
+        top: -55px;
+        border-color: #060B38; }
+    #Glabs #Glabs_Footer {
+      margin: 40px -15px 0;
+      padding: 5% 0 0; } }
+  @media only screen and (min-width: 480px) and (max-width: 576px) {
+    #Glabs #ShareBar {
+      margin: 0;
+      padding: 2em 2em 1em; }
+      #Glabs #ShareBar .col-sm-12 {
+        text-align: center !important; }
+      #Glabs #ShareBar .ReadMore {
+        top: -25px;
+        position: relative;
+        line-height: 1.2em; }
+      #Glabs #ShareBar #ShareMe {
+        position: relative;
+        top: -55px;
+        border-color: #060B38; }
+    #Glabs #Glabs_Footer {
+      margin: 40px -15px 0;
+      padding: 5% 0 0; } }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    #Glabs #ShareBar {
+      margin: 0;
+      padding: 2em 2em 1em; }
+      #Glabs #ShareBar .col-sm-12 {
+        text-align: center !important; }
+      #Glabs #ShareBar .ReadMore {
+        top: -25px;
+        position: relative;
+        line-height: 1.2em;
+        font-size: 1em; }
+      #Glabs #ShareBar #ShareMe {
+        position: relative;
+        top: -55px;
+        border-color: #060B38; }
+    #Glabs #Glabs_Footer {
+      margin: 40px -15px 0;
+      padding: 5% 0 0; } }
+  @media only screen and (max-width: 320px) {
+    #Glabs #ShareBar {
+      margin: 0;
+      padding: 2em 2em 1em; }
+      #Glabs #ShareBar .col-sm-12 {
+        text-align: center !important; }
+      #Glabs #ShareBar .ReadMore {
+        top: -25px;
+        position: relative;
+        line-height: 1.2em;
+        font-size: 1em; }
+      #Glabs #ShareBar #ShareMe {
+        position: relative;
+        top: -55px;
+        border-color: #060B38; }
+    #Glabs #Glabs_Footer {
+      margin: 40px -15px 0;
+      padding: 5% 0 0; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    #Glabs #ShareBar {
+      margin: 0 -15px; }
+      #Glabs #ShareBar .ReadMore {
+        top: 0px;
+        position: relative;
+        font-size: 1.2em; }
+      #Glabs #ShareBar #ShareMe {
+        position: relative;
+        top: 0px;
+        border-color: #060B38; }
+    #Glabs #Glabs_Footer {
+      margin: 40px -15px 0;
+      padding: 5% 0 0; } }
   @media only screen and (min-width: 990px) and (max-width: 1024px) {
     #Glabs {
       /* Styles */ } }
@@ -818,7 +945,7 @@ html body {
       opacity: .3;
       margin: 10px 3px;
       transition: all .6s ease-in, visibility .75s linear;
-      height: 470px; }
+      height: 560px; }
     #Glabs #FlipCard.ShopOpen .front:hover {
       transition: all .6s ease-in, visibility .75s linear;
       opacity: .8; }

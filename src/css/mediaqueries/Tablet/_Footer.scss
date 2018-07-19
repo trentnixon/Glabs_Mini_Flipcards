@@ -27,5 +27,25 @@
 /* iPads (portrait) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
  
- 
+    #ShareBar{
+        
+        margin: 0 -15px ;
+        .col-sm-12{}
+
+        .ReadMore{   
+                top: 0px; 
+                position: relative;
+                font-size: 1.2em;
+                strong{}
+        }
+        .ReadMore:hover{}
+
+        
+        #ShareMe{
+            position: relative;
+            top: 0px;
+            border-color: $PrimaryColor;
+        }
+    }
+    #Glabs_Footer{ margin: 40px -15px 0; padding: 5% 0 0 ;}
 }

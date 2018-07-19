@@ -1,20 +1,116 @@
 /* Smartphones (portrait and landscape) ----------- */
 /* Large Phones ----------- */
 @media only screen and (min-width : 576px) and (max-width : 768px) {
+    #ShareBar{
         
+        margin: 0 ;
+        padding: 2em 2em 1em;
+
+        .col-sm-12{
+            text-align: center !important;
+        }
+
+        .ReadMore{   
+                top: -25px; 
+                position: relative;
+                strong{}
+        }
+        .ReadMore:hover{}
+
+        
+        #ShareMe{
+            position: relative;
+            top: -55px;
+            border-color: $PrimaryColor;
+        }
+    }
+    #Glabs_Footer{ margin: 40px -15px 0; padding: 5% 0 0 ;}
 }
+
 
 /* Medium Phones ----------- */
 @media only screen and (min-width : 480px) and (max-width : 576px) {
+    #ShareBar{
+        
+        margin: 0 ;
+        padding: 2em 2em 1em;
+        .col-sm-12{
+            text-align: center !important;
+        }
 
+        .ReadMore{   
+                top: -25px; 
+                position: relative;
+                line-height: 1.2em;
+                strong{}
+        }
+        .ReadMore:hover{}
+
+        
+        #ShareMe{
+            position: relative;
+            top: -55px;
+            border-color: $PrimaryColor;
+        }
+    }
+    #Glabs_Footer{ margin: 40px -15px 0; padding: 5% 0 0 ;}
 }
 
 /* Small Phones ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+    #ShareBar{
+        
+        margin: 0 ;
+        padding: 2em 2em 1em;
+        .col-sm-12{
+            text-align: center !important;
+        }
+
+        .ReadMore{   
+                top: -25px; 
+                position: relative;
+                line-height: 1.2em;
+                font-size: 1em;
+                strong{}
+        }
+        .ReadMore:hover{}
+
+        
+        #ShareMe{
+            position: relative;
+            top: -55px;
+            border-color: $PrimaryColor;
+        }
+    }
+    #Glabs_Footer{ margin: 40px -15px 0; padding: 5% 0 0 ;}
 
 }
     
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
- 
+    #ShareBar{
+        
+        margin: 0 ;
+        padding: 2em 2em 1em;
+        .col-sm-12{
+            text-align: center !important;
+        }
+
+        .ReadMore{   
+                top: -25px; 
+                position: relative;
+                line-height: 1.2em;
+                font-size: 1em;
+                strong{}
+        }
+        .ReadMore:hover{}
+
+        
+        #ShareMe{
+            position: relative;
+            top: -55px;
+            border-color: $PrimaryColor;
+        }
+    }
+    #Glabs_Footer{ margin: 40px -15px 0; padding: 5% 0 0 ;}
 }

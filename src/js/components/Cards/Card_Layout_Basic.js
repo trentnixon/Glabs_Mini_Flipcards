@@ -16,8 +16,8 @@ export default class CardFront extends React.Component {
         <div className='container-fluid card-side-outer'>
           <div className='row'>
               <div className='card-side-layout'>
-                  <CardDomBanner {... this.props}/> 
                   <CardDomContent {... this.props}/>
+                  <CardDomBanner {... this.props}/> 
                   <CardDomAction {... this.props}/>
               </div>
           </div>

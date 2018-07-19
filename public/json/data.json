@@ -23,8 +23,8 @@
          "front":{
             "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
-                "media":null,
-                "src":""
+                "media":"image",
+                "src":"/assets/images/Icon_001.svg"
             },
             "content":{
                 "type":"basic",
@@ -53,13 +53,13 @@
          "front":{
             "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
-                "media":null,
-                "src":""
+                "media":"image",
+                "src":"/assets/images/Icon_002.svg"
             },
             "content":{
                 "type":"basic",
-                "header":"AI",
-                "subheader":"In-home technology",
+                "header":"Do not disturb sleeping driver",
+                "subheader":"Autonomous cars are coming",
                 "copy":""
             }
          },
@@ -68,8 +68,7 @@
             "bgImage":"/assets/images/Card_Background.jpg",
             
             "banner":{
-                "media":null, 
-                "src":""
+               
             },
             "content":{
                 "type":"basic",
@@ -83,13 +82,13 @@
          "front":{
             "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
-                "media":null,
-                "src":""
+                "media":"image",
+                "src":"/assets/images/Icon_003.svg"
             },
             "content":{
                 "type":"basic",
-                "header":"Personal  tech",
-                "subheader":"Music devices and streaming media",
+                "header":"Find yourself (from space)",
+                "subheader":"PS: mapping our world",
                 "copy":""
             }
          },
@@ -113,13 +112,13 @@
          "front":{
             "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
-                "media":null,
-                "src":""
+                "media":"image",
+                "src":"/assets/images/Icon_004.svg"
             },
             "content":{
                 "type":"basic",
-                "header":"Personal drones",
-                "subheader":"",
+                "header":"The end of silence",
+                "subheader":"Personal drones hit the mainstream",
                 "copy":""
             }
          },
@@ -143,13 +142,13 @@
          "front":{
             "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
-                "media":null,
-                "src":""
+                "media":"image",
+                "src":"/assets/images/Icon_005.svg"
             },
             "content":{
                 "type":"basic",
-                "header":"Autonomous vehicles",
-                "subheader":"",
+                "header":"Welcome to radio you",
+                "subheader":"Music devices and streaming media",
                 "copy":""
             }
          },
@@ -173,13 +172,13 @@
          "front":{
             "bgImage":"/assets/images/Card_Background.jpg",
             "banner":{
-                "media":null,
-                "src":""
+                "media":"image",
+                "src":"/assets/images/Icon_006.svg"
             },
             "content":{
                 "type":"basic",
-                "header":"Robotics",
-                "subheader":"",
+                "header":"The rise of the machines",
+                "subheader":"Robotics enters the future",
                 "copy":""
             }
          },
