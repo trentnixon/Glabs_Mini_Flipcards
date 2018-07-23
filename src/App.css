@@ -347,7 +347,7 @@ html body {
       font-weight: normal;
       line-height: 1em;
       margin: 0 0 10px;
-      width: 60%;
+      width: 80%;
       display: inline-block;
       color: #000000;
       margin: 0 0 20px; }
@@ -416,17 +416,37 @@ html body {
     margin: 1% 1% 60px;
     padding: 2%;
     /*- Card sides -*/
-    /*- Flipping the card 
-  .card-container:hover .card-body {
-      transform: rotateY(-180deg);
-    }
-    
-    .card-container:hover > .card-body > .side-front {
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 1s ease-in, visibility .75s linear;
-    }
--*/ }
+    /* UPDATED FLIP : Works in Safari */
+    /*
+.card-container{
+  perspective: 1000px;
+
+    .card-body {
+      
+      transform-style: preserve-3d; 
+      transition: all .7s linear;
+      
+      .side-back{
+          transform: rotateY(180deg);
+        }
+  }
+}
+
+.card-container.back
+      { 
+        .card-body {
+              
+              transform: rotateY(180deg);	
+              position: relative;
+
+              .side-front {
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity .4s ease-in, visibility .75s linear, height .4s ease-in;
+               }
+        }
+  }
+*/ }
     #Glabs #FlipCard .Card_Frame {
       background-color: #060B38;
       margin: 0;
@@ -443,14 +463,12 @@ html body {
           background-color: transparent;
           margin: 0;
           padding: 0px;
-          transform-style: preserve-3d;
-          transition: all .7s linear;
           width: 100%;
           height: 100%;
           border-top: 1px solid rgba(255, 255, 255, 0.2); }
     #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
-      width: 40%;
-      margin: 20px 30%;
+      width: 50%;
+      margin: 10% 25%;
       -webkit-filter: drop-shadow(1px 1px 3px #FF0053);
       filter: drop-shadow(1px 1px 3px #FF0053); }
     #Glabs #FlipCard .Card_Frame:nth-child(1) .Button_Action_FlipMe:hover {
@@ -459,7 +477,7 @@ html body {
       background-color: #250035; }
     #Glabs #FlipCard .Card_Frame:nth-child(2) img.BannerImage {
       width: 70%;
-      margin: 30px 15% 0;
+      margin: 20% 15% 0;
       -webkit-filter: drop-shadow(1px 1px 3px #00E4FF);
       filter: drop-shadow(1px 1px 3px #00E4FF); }
     #Glabs #FlipCard .Card_Frame:nth-child(2) .Button_Action_FlipMe:hover {
@@ -468,7 +486,7 @@ html body {
       background-color: #250035; }
     #Glabs #FlipCard .Card_Frame:nth-child(3) img.BannerImage {
       width: 70%;
-      margin: 30px 15% 0;
+      margin: 20% 15% 0;
       -webkit-filter: drop-shadow(1px 1px 3px #FF9F00);
       filter: drop-shadow(1px 1px 3px #FF9F00); }
     #Glabs #FlipCard .Card_Frame:nth-child(3) .Button_Action_FlipMe:hover {
@@ -477,7 +495,7 @@ html body {
       background-color: #250035; }
     #Glabs #FlipCard .Card_Frame:nth-child(4) img.BannerImage {
       width: 70%;
-      margin: 30px 15% 0;
+      margin: 20% 15% 0;
       -webkit-filter: drop-shadow(1px 1px 3px #00FF81);
       filter: drop-shadow(1px 1px 3px #00FF81); }
     #Glabs #FlipCard .Card_Frame:nth-child(4) .Button_Action_FlipMe:hover {
@@ -486,7 +504,7 @@ html body {
       background-color: #250035; }
     #Glabs #FlipCard .Card_Frame:nth-child(5) img.BannerImage {
       width: 40%;
-      margin: 20px 30%;
+      margin: 20% 30%;
       -webkit-filter: drop-shadow(1px 1px 3px #FFF13F);
       filter: drop-shadow(1px 1px 3px #FFF13F); }
     #Glabs #FlipCard .Card_Frame:nth-child(5) .Button_Action_FlipMe:hover {
@@ -495,7 +513,7 @@ html body {
       background-color: #250035; }
     #Glabs #FlipCard .Card_Frame:nth-child(6) img.BannerImage {
       width: 70%;
-      margin: 30px 15% 0;
+      margin: 20% 15% 0;
       -webkit-filter: drop-shadow(1px 1px 3px #F89CFF);
       filter: drop-shadow(1px 1px 3px #F89CFF); }
     #Glabs #FlipCard .Card_Frame:nth-child(6) .Button_Action_FlipMe:hover {
@@ -556,6 +574,9 @@ html body {
             background-color: transparent;
             margin: 0;
             padding: 1px; }
+            #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Banner img {
+              -webkit-backface-visibility: hidden;
+              backface-visibility: hidden; }
           #Glabs #FlipCard .card-side .card-side-outer .card-side-layout .Side-Content {
             background-color: transparent;
             margin: 0;
@@ -593,13 +614,9 @@ html body {
       #Glabs #FlipCard .card-container .side-front .Side-Content {
         background-color: #DCDCDC; }
     #Glabs #FlipCard .card-container .side-back {
+      background-color: #060B38;
       z-index: 2;
-      padding: 20px 5px;
-      -webkit-transform: rotateY(180deg);
-      -moz-transform: rotateY(180deg);
-      -o-transform: rotateY(180deg);
-      transform: rotateY(180deg);
-      background-color: #060B38; }
+      padding: 20px 5px; }
       #Glabs #FlipCard .card-container .side-back .Side-Content {
         background-color: #060B38; }
       #Glabs #FlipCard .card-container .side-back h1 {
@@ -614,20 +631,22 @@ html body {
         display: none; }
       #Glabs #FlipCard .card-container .side-back p {
         color: #DCDCDC; }
+    #Glabs #FlipCard .card-container {
+      perspective: 1000px; }
+      #Glabs #FlipCard .card-container .card-body {
+        transition: 1.2s;
+        transform-style: preserve-3d;
+        position: relative; }
+        #Glabs #FlipCard .card-container .card-body .card-side {
+          backface-visibility: hidden; }
+        #Glabs #FlipCard .card-container .card-body .side-front {
+          z-index: 2;
+          /* for firefox 31 */
+          transform: rotateY(0deg); }
+        #Glabs #FlipCard .card-container .card-body .side-back {
+          transform: rotateY(180deg); }
     #Glabs #FlipCard .card-container.back .card-body {
-      -webkit-transform: rotateY(180deg);
-      -moz-transform: rotateY(180deg);
-      -o-transform: rotateY(180deg);
-      transform: rotateY(180deg);
-      -webkit-transform-style: preserve-3d;
-      -moz-transform-style: preserve-3d;
-      -o-transform-style: preserve-3d;
-      -ms-transform-style: preserve-3d;
-      transform-style: preserve-3d; }
-    #Glabs #FlipCard .card-container.back > .card-body > .side-front {
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity .4s ease-in, visibility .75s linear, height .4s ease-in; }
+      transform: rotateY(180deg); }
     #Glabs #FlipCard .BeforeAfterSlider {
       margin: 0 auto;
       z-index: 9;
@@ -800,27 +819,147 @@ html body {
     #Glabs #Glabs #FlipCard {
       padding: 0; }
       #Glabs #Glabs #FlipCard .Card_Frame .card-container {
-        padding: 3px; } }
+        padding: 3px; }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
+        width: 40%;
+        margin: 5% 30%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF0053);
+        filter: drop-shadow(1px 1px 3px #FF0053); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(2) img.BannerImage {
+        width: 60%;
+        margin: 10% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00E4FF);
+        filter: drop-shadow(1px 1px 3px #00E4FF); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(3) img.BannerImage {
+        width: 60%;
+        margin: 15% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF9F00);
+        filter: drop-shadow(1px 1px 3px #FF9F00); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(4) img.BannerImage {
+        width: 60%;
+        margin: 15% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00FF81);
+        filter: drop-shadow(1px 1px 3px #00FF81); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(5) img.BannerImage {
+        width: 36%;
+        margin: 7% 34%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FFF13F);
+        filter: drop-shadow(1px 1px 3px #FFF13F); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(6) img.BannerImage {
+        width: 60%;
+        margin: 15% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #F89CFF);
+        filter: drop-shadow(1px 1px 3px #F89CFF); } }
   @media only screen and (min-width: 480px) and (max-width: 576px) {
     #Glabs #Glabs #FlipCard {
       padding: 0; }
       #Glabs #Glabs #FlipCard .Card_Frame .card-container {
-        padding: 5px; } }
+        padding: 5px; }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
+        width: 40%;
+        margin: 5% 30%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF0053);
+        filter: drop-shadow(1px 1px 3px #FF0053); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(2) img.BannerImage {
+        width: 60%;
+        margin: 10% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00E4FF);
+        filter: drop-shadow(1px 1px 3px #00E4FF); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(3) img.BannerImage {
+        width: 60%;
+        margin: 15% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF9F00);
+        filter: drop-shadow(1px 1px 3px #FF9F00); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(4) img.BannerImage {
+        width: 60%;
+        margin: 15% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00FF81);
+        filter: drop-shadow(1px 1px 3px #00FF81); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(5) img.BannerImage {
+        width: 36%;
+        margin: 7% 34%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FFF13F);
+        filter: drop-shadow(1px 1px 3px #FFF13F); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(6) img.BannerImage {
+        width: 60%;
+        margin: 15% 20% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #F89CFF);
+        filter: drop-shadow(1px 1px 3px #F89CFF); } }
   @media only screen and (min-width: 320px) and (max-width: 480px) {
     #Glabs #Glabs #FlipCard {
       padding: 0; }
       #Glabs #Glabs #FlipCard .Card_Frame .card-container {
-        padding: 5px; } }
+        padding: 5px; }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
+        width: 50%;
+        margin: 10% 25%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF0053);
+        filter: drop-shadow(1px 1px 3px #FF0053); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(2) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00E4FF);
+        filter: drop-shadow(1px 1px 3px #00E4FF); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(3) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF9F00);
+        filter: drop-shadow(1px 1px 3px #FF9F00); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(4) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00FF81);
+        filter: drop-shadow(1px 1px 3px #00FF81); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(5) img.BannerImage {
+        width: 40%;
+        margin: 20% 30%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FFF13F);
+        filter: drop-shadow(1px 1px 3px #FFF13F); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(6) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #F89CFF);
+        filter: drop-shadow(1px 1px 3px #F89CFF); } }
   @media only screen and (max-width: 320px) {
     #Glabs #Glabs #FlipCard {
       padding: 0; }
       #Glabs #Glabs #FlipCard .Card_Frame .card-container {
-        padding: 5px; } }
+        padding: 5px; }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
+        width: 50%;
+        margin: 10% 25%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF0053);
+        filter: drop-shadow(1px 1px 3px #FF0053); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(2) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00E4FF);
+        filter: drop-shadow(1px 1px 3px #00E4FF); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(3) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #FF9F00);
+        filter: drop-shadow(1px 1px 3px #FF9F00); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(4) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #00FF81);
+        filter: drop-shadow(1px 1px 3px #00FF81); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(5) img.BannerImage {
+        width: 40%;
+        margin: 20% 30%;
+        -webkit-filter: drop-shadow(1px 1px 3px #FFF13F);
+        filter: drop-shadow(1px 1px 3px #FFF13F); }
+      #Glabs #Glabs #FlipCard .Card_Frame:nth-child(6) img.BannerImage {
+        width: 70%;
+        margin: 20% 15% 0;
+        -webkit-filter: drop-shadow(1px 1px 3px #F89CFF);
+        filter: drop-shadow(1px 1px 3px #F89CFF); } }
   @media only screen and (min-width: 576px) and (max-width: 768px) {
     #Glabs #ShareBar {
       margin-top: 30px; }
       #Glabs #ShareBar .col-sm-12 {
-        text-align: center !important; }
+        text-align: right !important; }
       #Glabs #ShareBar .ReadMore {
         top: -15px;
         position: relative; }
@@ -884,8 +1023,6 @@ html body {
     #Glabs #ShareBar {
       margin: 0;
       padding: 2em 2em 1em; }
-      #Glabs #ShareBar .col-sm-12 {
-        text-align: center !important; }
       #Glabs #ShareBar .ReadMore {
         top: -25px;
         position: relative; }
@@ -981,6 +1118,18 @@ html body {
   @media only screen and (min-width: 990px) and (max-width: 1024px) {
     #Glabs {
       /* Styles */ } }
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    #Glabs #Glabs #FlipCard {
+      margin: 1% 0% 60px;
+      padding: 0; }
+      #Glabs #Glabs #FlipCard .Card_Frame .card-container {
+        padding: 1px; } }
+  @media only screen and (min-width: 992px) and (max-width: 1024px) {
+    #Glabs #Glabs #FlipCard {
+      margin: 1% 0% 60px;
+      padding: 0; }
+      #Glabs #Glabs #FlipCard .Card_Frame .card-container {
+        padding: 1px; } }
   @media only screen and (min-width: 990px) {
     #Glabs #FlipCard.ShopOpen .front {
       opacity: .3;

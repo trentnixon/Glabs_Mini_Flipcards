@@ -2,6 +2,7 @@
   "name": "overlay",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/",
   "dependencies": {
     "@material-ui/core": "^1.2.1",
     "@material-ui/icons": "^1.1.0",

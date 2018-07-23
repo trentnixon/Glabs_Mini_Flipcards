@@ -3,15 +3,18 @@ import {GA} from "../../../actions/ga";
 export default class Header extends Component {
 
   render() {
+      console.log(this.props.UI.Data.ProjectURL)
     return ( 
             <a 
-                href="https://google.com" 
+                href={this.props.UI.Data.ProjectURL} 
                 className="ReadMore"
-                onClick={()=>{GA('Link Clicked','CTA Bar','https://google.com')} }
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={()=>{GA('Link Clicked','CTA Bar',this.props.UI.Data.ProjectURL)} }
             >
            
              Read more in our content series:<br />
-             <strong>The internet of everything and everyday tech</strong> <span className="chevron right"></span>
+             <strong>{this.props.UI.Data.ProjectSubHeader}</strong> <span className="chevron right"></span>
             </a>
         );
     } 

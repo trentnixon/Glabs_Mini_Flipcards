@@ -11,7 +11,7 @@ export default class CardFront extends React.Component {
   render() {
     return(
       <div className={'card-side ' + this.props.SideClass}
-          style={{backgroundImage:"url("+this.props.card.bgImage+")" }}
+          style={{backgroundImage:"url(https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected"+this.props.card.bgImage+")" }}
       >
         <div className='container-fluid card-side-outer'>
           <div className='row'>

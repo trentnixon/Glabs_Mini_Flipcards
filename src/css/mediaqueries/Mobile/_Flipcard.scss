@@ -9,7 +9,17 @@
                     padding: 3px;
                 }
             } 
-    }}
+
+
+    .Card_Frame:nth-child(1){ img.BannerImage{@include SVG(#FF0053, 40%, 5% 30%);}}
+    .Card_Frame:nth-child(2){ img.BannerImage{ @include SVG(#00E4FF, 60%, 10% 20% 0 );}}
+    .Card_Frame:nth-child(3){ img.BannerImage{ @include SVG(#FF9F00, 60%, 15% 20% 0 ); }}
+    .Card_Frame:nth-child(4){ img.BannerImage{ @include SVG(#00FF81, 60%, 15% 20% 0  ); }}
+    .Card_Frame:nth-child(5){ img.BannerImage{@include SVG(#FFF13F, 36%, 7% 34%);} }
+    .Card_Frame:nth-child(6){ img.BannerImage{ @include SVG(#F89CFF, 60%, 15% 20% 0 ); }}
+
+              
+}}
 }
 
 /* Medium Phones ----------- */
@@ -22,7 +32,15 @@
                     padding: 5px;
                 }
             } 
-    }}
+   
+
+    .Card_Frame:nth-child(1){ img.BannerImage{@include SVG(#FF0053, 40%, 5% 30%);}}
+    .Card_Frame:nth-child(2){ img.BannerImage{ @include SVG(#00E4FF, 60%, 10% 20% 0 );}}
+    .Card_Frame:nth-child(3){ img.BannerImage{ @include SVG(#FF9F00, 60%, 15% 20% 0 ); }}
+    .Card_Frame:nth-child(4){ img.BannerImage{ @include SVG(#00FF81, 60%, 15% 20% 0  ); }}
+    .Card_Frame:nth-child(5){ img.BannerImage{@include SVG(#FFF13F, 36%, 7% 34%);} }
+    .Card_Frame:nth-child(6){ img.BannerImage{ @include SVG(#F89CFF, 60%, 15% 20% 0 ); }}    
+     }}
 }
 
 /* Small Phones ----------- */
@@ -35,6 +53,12 @@
                     padding: 5px;
                 }
             } 
+            .Card_Frame:nth-child(1){ img.BannerImage{@include SVG(#FF0053, 50%, 10% 25%);}} 
+            .Card_Frame:nth-child(2){ img.BannerImage{ @include SVG(#00E4FF, 70%, 20% 15% 0 );}}
+            .Card_Frame:nth-child(3){ img.BannerImage{ @include SVG(#FF9F00, 70%, 20% 15% 0 ); }}
+            .Card_Frame:nth-child(4){ img.BannerImage{ @include SVG(#00FF81, 70%, 20% 15% 0 ); }}
+            .Card_Frame:nth-child(5){ img.BannerImage{@include SVG(#FFF13F, 40%, 20% 30%);}}
+            .Card_Frame:nth-child(6){ img.BannerImage{ @include SVG(#F89CFF, 70%, 20% 15% 0 ); }}
     }}
 }
     
@@ -48,5 +72,12 @@
                     padding: 5px;
                 }
             } 
+        
+            .Card_Frame:nth-child(1){ img.BannerImage{@include SVG(#FF0053, 50%, 10% 25%);}} 
+            .Card_Frame:nth-child(2){ img.BannerImage{ @include SVG(#00E4FF, 70%, 20% 15% 0 );}}
+            .Card_Frame:nth-child(3){ img.BannerImage{ @include SVG(#FF9F00, 70%, 20% 15% 0 ); }}
+            .Card_Frame:nth-child(4){ img.BannerImage{ @include SVG(#00FF81, 70%, 20% 15% 0 ); }}
+            .Card_Frame:nth-child(5){ img.BannerImage{@include SVG(#FFF13F, 40%, 20% 30%);}}
+            .Card_Frame:nth-child(6){ img.BannerImage{ @include SVG(#F89CFF, 70%, 20% 15% 0 ); }}
     }}
 }

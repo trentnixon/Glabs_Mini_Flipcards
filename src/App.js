@@ -20,7 +20,7 @@ const Content = new FetchData();
 /**
  * Dev/production enviormant Variables
  */
-const CDN = 'http://mini-connected.surge.sh/';
+const CDN = 'https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/';
 let http =null, Bottom= false;
 
 const Path='assets/';
