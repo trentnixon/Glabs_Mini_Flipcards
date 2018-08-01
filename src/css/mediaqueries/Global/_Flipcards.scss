@@ -18,7 +18,7 @@
 
   
 // Parent Container    
-    @include BMP($PrimaryColor,1% 1% 60px,2%) ;
+    @include BMP($PrimaryColor,1% 1% 20px,2%) ;
 
     // Card Frames
     @import "../../components/Cards/_Card_Frame.scss";

@@ -1,0 +1,19 @@
+#BottomCTA{
+    .row{
+        border-top: 1px solid $SecondaryColor;
+        padding: 20px 0 80px;
+
+            h3{
+                text-align: center;
+                color: $PrimaryHColor;
+                font-family: $FontFamilyBody;
+                font-size: 1.4em;
+                line-height: 1.4em;
+
+                a{
+                    color: $TertiaryColor;
+                    text-decoration: underline;
+                }
+            }
+    }
+}

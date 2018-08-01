@@ -1,9 +1,9 @@
 @at-root {
   
-$http:'/';
+$http:'https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/';
 $path:'assets/';
 $images:'images/';
-$fonts:'fonts/';
+$fonts:'fonts';
 
   @font-face {
       font-display: swap;

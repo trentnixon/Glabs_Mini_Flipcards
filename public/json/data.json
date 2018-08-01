@@ -1,12 +1,13 @@
 {
  "data":"Load the Data",
  "ProjectHeader":"A New Frontier —  the artificial intelligence, robotics and futuristic tech transforming our everyday",
- "ProjectSubHeader":"Mini: The future starts now",
+ "ProjectSubHeader":"MINI: The future starts now",
  "ProjectCopy":"From talking robots to self-driving cars, the evolution of modern technology owes a great deal to sci-fi pop culture. Take a look at the origins, development, breakthrough moments and future iterations of the essential kit that we today take for granted",
- "ProjectURL":"https://www.mini.com.au/connected/",
+ "ProjectURL":"https://www.mini.com.au/",
+ "CampaignURL":"https://www.theguardian.com/mini-the-future-starts-now",
  "ProjectLogo":"Client-Logo.png",
  "ProjectSocial":{
-     "ShareUrl":"https://www.mini.com.au/connected/",
+     "ShareUrl":"https://www.mini.com.au/",
      "ShareHeader":"Share This Page",
      "ShareCopy":"This is a test of the Social flipcard buttons",
      "ShareImage":"",

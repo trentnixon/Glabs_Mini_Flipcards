@@ -12,7 +12,7 @@ export default class CreateFlipCards extends React.Component {
 
 render() {
 
-if(this.props.UI.TrackOpenCards.length === 0)
+if(this.props.UI.TrackOpenCards.length === 0) 
  {active='Shopclosed';}else{active='ShopOpen';}
 
     return(

@@ -106,7 +106,7 @@ textarea:focus {
   font-display: swap;
   font-family: "GH Guardian Headline";
   font-weight: bold;
-  src: url("/fonts//GHGuardianHeadline-Bold.woff2") format("woff2"), url("/fonts//GHGuardianHeadline-Bold.woff") format("woff"); }
+  src: url("https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/fonts/GHGuardianHeadline-Bold.woff2") format("woff2"), url("https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/fonts/GHGuardianHeadline-Bold.woff") format("woff"); }
 
 @font-face {
   font-family: "Guardian Headline Regular";
@@ -117,13 +117,13 @@ textarea:focus {
 @font-face {
   font-display: swap;
   font-family: "TS3 Text Sans";
-  src: url("/fonts//TS3TextSans.woff2") format("woff2"), url("/fonts//TS3TextSans.woff") format("woff"); }
+  src: url("https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/fonts/TS3TextSans.woff2") format("woff2"), url("https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/fonts/TS3TextSans.woff") format("woff"); }
 
 @font-face {
   font-display: swap;
   font-family: "TS3 Text Sans";
   font-weight: bold;
-  src: url("/fonts//TS3TextSans-Bold.woff2") format("woff2"), url("/fonts//TS3TextSans-Bold.woff") format("woff"); }
+  src: url("https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/fonts/TS3TextSans-Bold.woff2") format("woff2"), url("https://gdn-cdn.s3.amazonaws.com/embed/2018/07/mini-connected/fonts/TS3TextSans-Bold.woff") format("woff"); }
 
 /*- Typograpy  -*/
 html body {
@@ -413,7 +413,7 @@ html body {
       margin: 0 0 10px; }
   #Glabs #FlipCard {
     background-color: #060B38;
-    margin: 1% 1% 60px;
+    margin: 1% 1% 20px;
     padding: 2%;
     /*- Card sides -*/
     /* UPDATED FLIP : Works in Safari */
@@ -651,6 +651,18 @@ html body {
       margin: 0 auto;
       z-index: 9;
       width: 100% !important; }
+  #Glabs #BottomCTA .row {
+    border-top: 1px solid #DCDCDC;
+    padding: 20px 0 80px; }
+    #Glabs #BottomCTA .row h3 {
+      text-align: center;
+      color: #fff;
+      font-family: "TS3 Text Sans";
+      font-size: 1.4em;
+      line-height: 1.4em; }
+      #Glabs #BottomCTA .row h3 a {
+        color: #69D1CA;
+        text-decoration: underline; }
   #Glabs #ShareBar {
     background-color: #69D1CA;
     margin-top: 0px;

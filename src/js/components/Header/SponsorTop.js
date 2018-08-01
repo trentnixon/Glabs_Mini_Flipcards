@@ -8,10 +8,10 @@ export default class Header extends Component {
       <div className="row" id="Sponsor">
         <div className="col-xs-12 col-sm-6 text-left">
             <a 
-              href="https://www.theguardian.com/au"
+              href={this.props.UI.Data.CampaignURL}   
               rel="noopener noreferrer"
               target="_blank"
-              onClick={ () =>{GA('Link Clicked', 'Header Link Clicked', 'Glabs Promotion Zone')}}
+              onClick={ () =>{GA('Link Clicked', 'Header Link Clicked', this.props.UI.Data.CampaignURL)}}
             >
                 {this.props.UI.Data.ProjectSubHeader}
             </a>

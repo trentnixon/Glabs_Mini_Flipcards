@@ -5,6 +5,7 @@ import BodyCopy from "../dom/BodyCopy";
 import Footer from "../dom/Footer";
 import FlipCards from "../dom/flipcard";
 import SocialBar from "../dom/CTA_SocialShare_Bar";
+import BottomofPageCTA from "../dom/BottomofThePageCTA";
 
 // Use this component to build up the Project Layout
 export default class Main extends Component {
@@ -13,7 +14,8 @@ export default class Main extends Component {
         <div className="container-fluid" id="Glabs">
             <Header     {... this.props} />
             <BodyCopy    Copy={this.props.UI.Data.BodyCopy.slice(0, 5)}/>
-            <FlipCards  {... this.props} />   
+            <FlipCards  {... this.props} />
+            <BottomofPageCTA {... this.props}/>   
             <SocialBar  {... this.props} />
             <Footer     {... this.props} /> 
         </div>
