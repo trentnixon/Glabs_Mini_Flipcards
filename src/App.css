@@ -101,6 +101,24 @@ input:focus,
 textarea:focus {
   outline: none; }
 
+#Glabs .front, #Glabs .back {
+  border: none; }
+
+#Glabs .container {
+  border: none; }
+
+#Glabs a {
+  background-image: none; }
+
+#Glabs ul li:before {
+  display: none; }
+
+.ios div#article-header.article__header {
+  display: none; }
+
+.ios div#article-body.article__body {
+  padding: 0; }
+
 /*- SCCS Properties -*/
 @font-face {
   font-display: swap;
@@ -936,7 +954,8 @@ html body {
     #Glabs #Glabs #FlipCard {
       padding: 0; }
       #Glabs #Glabs #FlipCard .Card_Frame .card-container {
-        padding: 5px; }
+        padding: 5px;
+        height: 620px; }
       #Glabs #Glabs #FlipCard .Card_Frame:nth-child(1) img.BannerImage {
         width: 50%;
         margin: 10% 25%;
